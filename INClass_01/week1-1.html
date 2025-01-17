@@ -1,0 +1,12 @@
+<H1>Hello!</H1>
+<input id = 'Name' value = 'Ashwin'></input>
+<button onclick = 'clicked()'>Click Me!</button>
+<label id = 'Greeting'>Hello...!</label>
+
+<script>
+    function clicked()
+    {
+        name = document.getElementById('Name').value
+        document.getElementById('Greeting').innerText = "Hello " + name + "!"
+    }
+</script>
